@@ -1,0 +1,32 @@
+
+
+/* reset.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'inter';
+}
+
+.flex{
+  display: flex;
+}
+
+ul{
+  list-style: none;
+}
+
+a, button{
+  color: unset;
+  text-decoration: unset;
+  cursor: pointer;
+}
+
+.container{
+  padding: 0 50px;
+
+}
+
+.bgGrey{
+  background-color: rgb(247, 247, 247) ;
+}

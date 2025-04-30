@@ -1,0 +1,88 @@
+.main {
+    background-image: url('../../assets/img/main.jpg');
+    height: 802px;
+}
+
+.mainContent {
+    padding-top: 45px;
+    flex-direction: column;
+    background-color: rgba(242, 242, 242, 1);
+}
+
+.firstBlock {
+    padding-top: 49px;
+    padding-bottom: 60px;
+    background-color: white;
+}
+
+.secondBlock {
+    margin-top: 43px;
+    margin-bottom: 47px;
+}
+
+.mainContentTitle {
+    font-family: system-ui;
+    font-size: 50px;
+    font-weight: 400;
+    color: rgba(89, 166, 141, 1);
+    text-align: center;
+    margin-bottom: 49px;
+    width: 100%;
+}
+
+.mainContentText {
+    font-family: system-ui;
+    font-size: 25px;
+}
+
+.textRight {
+    flex-direction: column;
+    line-height: 34px;
+}
+
+.textLeft {
+    margin-right: 29px;
+    line-height: 42px;
+}
+
+.btnGreen {
+    background-color: rgba(166, 186, 76, 1);
+    color: white;
+    font-family: system-ui;
+    font-size: 30px;
+    padding: 9px 50px;
+    max-width: 206px;
+    border: none;
+    margin-top: 41px;
+    border-radius: 30px;
+}
+
+.mainContentWrapper {
+    margin-left: 28px;
+}
+
+.btnAquamarine {
+    background-color: rgba(89, 166, 141, 1);
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 40px;
+    max-width: 400px;
+    margin-top: 41px;
+    font-family: system-ui;
+}
+
+.paintedTextGreen {
+    color: rgba(166, 186, 76, 1);
+}
+
+.paintedTextAquamarine {
+    color: rgba(89, 166, 141, 1);
+}
+
+.secondBlockWrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

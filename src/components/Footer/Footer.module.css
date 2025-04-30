@@ -1,0 +1,72 @@
+
+.footer {
+    flex-direction: column;
+    background-color: rgba(89, 166, 141, 1);
+    padding: 30px 157px 28px 43px;
+  }
+  
+  .footerTitle {
+    font-family: 'Jaldi-Bold';
+    margin-bottom: 20px;
+    font-size: 35px;
+    line-height: 26px;
+  }
+  
+  .footerSection{
+    margin-left: 121px;
+    color: white;
+    font-family: system-ui;
+    font-weight: 700;
+  }
+
+  .footerSection:last-child{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  
+  .footerSection:not(:last-child) {
+    margin-bottom: 49px;
+  }
+  
+  .footerSectionLink:not(:last-child) {
+    margin-right: 24px;
+  }
+  
+  .footerSocial {
+    margin-left: auto;
+  }
+  
+  .footerSocial a {
+    margin-left: 10px;
+  }
+  
+  .vkIcon {
+    width: 37px;
+  }
+
+  .TGIcon{
+    height: 37px;
+  }
+  
+  .footerNav {
+    flex-direction: column;
+  }
+
+  .footerNav:first-child{
+    margin-right: 195px;
+  }
+  
+  .footerNavItem {
+    font-family: system-ui;
+    font-weight: 400;
+    margin-bottom: 5px;
+  }
+  
+  .footerNavItem:first-child {
+    font-weight: 700;
+    margin-bottom: 10px !important;
+  }
+  
+  .footerNavItem:not(:last-child) {
+    margin-bottom: 5px;
+  }
+  

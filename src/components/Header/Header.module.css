@@ -1,0 +1,39 @@
+.header {
+    font-family: 'Jaldi-Regular';
+    background-position: 37px;
+    justify-content: space-between;
+    height: 109px;
+    align-items: center;
+    padding: 23px 30px 16px;
+    position: absolute;
+    width: 100%;
+}
+
+.headerTitle {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    margin-top: auto;
+    margin-left: 15px;
+}
+
+.headerNavItem {
+    margin-left: 60px;
+    font-size: 20px;
+    font-family: 'system-ui';
+}
+
+.headerBurger {
+    display: flex;
+    flex-direction: column;
+    background: none;
+    border: unset;
+}
+
+.headerBurgerLine {
+    width: 58px;
+    cursor: pointer;
+    color: black;
+    padding-bottom: 12px;
+    border-bottom: 3px solid black;
+}

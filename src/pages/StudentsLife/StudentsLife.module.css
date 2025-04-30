@@ -1,0 +1,64 @@
+.main{
+    background-image: url('../../assets//img/main-studentsLife.jpg');
+    height: 897px;
+    padding-top: 116px;
+    background-repeat: no-repeat;
+    background-position: 1px 182px;
+    justify-content: center;
+    font-family: system-ui;
+    margin-bottom: 35px;
+}
+
+.mainTitle{
+    font-weight: 400;
+    font-size: 35px;
+    font-family: system-ui;
+    text-align: center;
+}
+
+.secondaryTitle{
+    color: rgba(89, 166, 141, 1);
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+.mainContent{
+    font-family: system-ui;
+}
+
+.mainContentBlockTitle{
+    color: rgba(166, 186, 76, 1);
+    margin-bottom: 35px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.mainContentBlockText,
+.mainContentBlockItems{
+    font-size: 28px;
+    list-style: disc;
+}
+
+.mainContentBlockItems{
+    margin-left: 43px;
+    margin-bottom: 28px;
+}
+
+.mainContentBlockItem{
+    margin-bottom: 30px;
+}
+
+.mainContentImgs{
+    justify-content: space-between;
+}
+
+.mainContentBlock:not(:last-child){
+    margin-bottom: 40px;
+}
+
+.mainContentBlock{
+    margin-bottom: 11px;
+}
+

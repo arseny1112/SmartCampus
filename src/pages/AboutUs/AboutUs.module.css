@@ -1,0 +1,118 @@
+.main{
+    background-image: url('../../assets//img/main-aboutUs.jpg');
+    height: 897px;
+    padding-top: 116px;
+    background-repeat: no-repeat;
+    background-position: 1px 182px;
+    justify-content: center;
+    font-family: system-ui;
+    margin-bottom: 35px;
+}
+
+.mainTitle{
+    font-weight: 400;
+    font-size: 35px;
+    font-family: system-ui;
+    text-align: center;
+}
+
+.mainContent{
+    font-family: system-ui;
+}
+
+.mainContentTitle{
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 17px;
+}
+
+h2.mainContentTitle:nth-of-type(1) {
+    color:rgba(0, 144, 217, 1);
+}
+
+h2.mainContentTitle:nth-of-type(2) {
+    color:rgba(89, 166, 141, 1);
+}
+
+h2.mainContentTitle:nth-of-type(3) {
+    color:rgba(166, 186, 76, 1);
+}
+
+.mainContentText{
+    font-size: 35px;
+}
+
+.mainContentItems{
+    font-weight: 400;
+    font-size: 35px;
+    margin-bottom: 66px;
+    margin-left: 46px;
+}
+
+.Contacts{
+    flex-direction: column;
+    font-family: system-ui;
+   align-items: center;
+}
+
+.ContactsTitle{
+    font-size: 35px;
+    margin-bottom: 63px;
+    font-weight: 400;
+}
+
+.ContactsBlock{
+    font-size: 35px;
+    margin-bottom: 63px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.ContactsForm{
+    width: 850px;
+    height: 396px;
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 30px;
+    padding-top: 36px;
+    padding-bottom: 102px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 43px;
+}
+
+.ContactsText{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.ContactsInput{
+    border-radius: 30px;
+    background: white;
+    border: unset;
+    min-width: 603px;
+    padding-top: 18px;
+    padding-left: 35px;
+    font-size: 28px;
+    padding-bottom: 18px;
+}
+
+.ContactsInput::placeholder{
+    color: black;
+}
+
+.ContactsInput:not(:last-child){
+    margin-bottom: 39px;
+}
+
+.smartFont{
+    font-family: 'Jaldi-Bold';
+}
+
+.ContactsItem{
+    align-items: baseline;
+}
+
+.ContactsPhone{
+    width: 39px;
+    height: 42px;
+}
